@@ -1,0 +1,15 @@
+package 行为型模式.策略模式;
+
+import 行为型模式.策略模式.FlyBehavior.FlyWithWings;
+import 行为型模式.策略模式.QuackBehavior.Quack;
+
+public class MallardDuck extends Duck {         //绿头鸭,可说话，可飞
+    public MallardDuck(){
+        quackBehavior=new Quack();              //quackBehavior实例化为Quack(),则可正常说话
+        flyBehavior=new FlyWithWings();         //FlyBehavior实例化为FlyWithWings(),则可飞行
+    }
+    @Override
+    public void display() {
+        System.out.println("我是模型鸭");
+    }
+}
