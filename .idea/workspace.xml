@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="120" />
+              <first_editor relative-caret-position="69">
+                <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -32,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
-                <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+                <caret line="7" column="184" lean-forward="false" selection-start-line="7" selection-start-column="184" selection-end-line="7" selection-end-column="184" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -247,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526106105441</updated>
-      <workItem from="1526106108581" duration="3451000" />
+      <workItem from="1526106108581" duration="3492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3451000" />
+    <option name="totallyTimeSpent" value="3492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -433,8 +433,8 @@
     <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="120" />
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -445,7 +445,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="161">
-            <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <caret line="7" column="184" lean-forward="false" selection-start-line="7" selection-start-column="184" selection-end-line="7" selection-end-column="184" />
             <folding />
           </first_editor>
           <second_editor />
