@@ -3,9 +3,16 @@ package tool.url;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-//D:\javaCode\DesignPattern\src\创建型模式\工厂模式\简单工厂模式\简单工厂.md
-public class MDUrlFactory extends UrlFactory {
-    @Override
+public class MDUrlFactory {
+    private static MDUrlFactory mdUrlFactory;
+
+    private MDUrlFactory(){}
+
+    public static MDUrlFactory getInstance(){
+        if(mdUrlFactory==null)mdUrlFactory=new MDUrlFactory();
+        return mdUrlFactory;
+    }
+
     String encodeUrl(String url) throws UnsupportedEncodingException {
         String root="https://github.com/szuming/DesignPattern/blob/master";         //url根部
         url=url.substring(url.indexOf("src"));                                      //从src开始分割，包括src

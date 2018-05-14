@@ -3,12 +3,12 @@ package tool.url;
 import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
 
-public class testEncoder {
+public class EncodeUrl {
     public static void main(String []argv) throws UnsupportedEncodingException {
+        MDUrlFactory mdUrlFactory=MDUrlFactory.getInstance();
         Scanner reader=new Scanner(System.in);
         String url=reader.next();
-        UrlFactory urlFactory=new MDUrlFactory();
-        url=urlFactory.encodeUrl(url);
+        url=mdUrlFactory.encodeUrl(url);
         System.out.println(url);
     }
 }
