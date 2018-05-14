@@ -1,5 +1,5 @@
 # DesignerPattern
-
+设计模式学习笔记
 
 ## 行为型模式
 |  #  |      Title     |   详细信息   |  笔记                 
@@ -12,3 +12,17 @@
 |  #  |      Title     |   详细信息   |  笔记                 
 |-----|----------------|---------------|-------------
 |73-108|装饰者模式|[src](https://github.com/szuming/DesignPattern/blob/master/src/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)|装饰者将被装饰者当作初始化变量注入，从而结合自身与被装饰者方法，形成一个新的包装类
+
+
+## 创建者模式
+|  #  |      Title     |   详细信息   |  笔记                 
+|-----|----------------|---------------|-------------
+|109-117|简单工厂模式|[src](https://github.com/szuming/DesignPattern/blob/master/src/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)|将具体的生产方法交给一个新的类
+|117-136|工厂方法模式|[src](https://github.com/szuming/DesignPattern/blob/master/src/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)|定义一个创建对象的接口由继承的子类去具体实现
+|136-168|抽象工厂模式|[src](https://github.com/szuming/DesignPattern/blob/master/src/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)|提供一个接口创建一系列相关的对象的家族
+
+
+
+## 参考资料：
+* 《Head First 设计模式》
+* [Graphic Design Patterns](https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html)
